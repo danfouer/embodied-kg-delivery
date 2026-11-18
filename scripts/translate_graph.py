@@ -253,6 +253,13 @@ LABEL_EN = {
     "七、使用建议": "VII. Usage Suggestions",
     "来源说明": "Source Notes",
 
+    # ---- usage case study (Ant LingBot embodied large model challenge path) ----
+    "知识图谱使用案例-蚂蚁灵波参赛路径.md": "Knowledge Graph Usage Case - Ant LingBot Participation Path.md",
+    "知识图谱使用案例 · 以蚂蚁灵波具身大模型挑战赛参赛路径为例": "Knowledge Graph Usage Case: The Ant LingBot Embodied Large Model Challenge Participation Path",
+    "二、案例背景：一名学生想参加蚂蚁灵波具身大模型挑战赛": "II. Case Background: A Student Wants to Join the Ant LingBot Embodied Large Model Challenge",
+    "步骤 2｜定位赛事节点:搜索「蚂蚁灵波」": "Step 2 | Locate Event Nodes: Search 'Ant LingBot'",
+    "步骤 3｜锁定关键问题:评测口径": "Step 3 | Pin Down the Key Question: Evaluation Rules",
+
     # ---- usage case study (IVFC2026 participation path) ----
     "知识图谱使用案例-IVFC2026参赛路径.md": "Knowledge Graph Usage Case - IVFC2026 Participation Path.md",
     "知识图谱使用案例 · 以 IVFC2026 参赛路径为例": "Knowledge Graph Usage Case: The IVFC2026 Participation Path",
