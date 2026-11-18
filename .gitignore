@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Graphify build intermediates (deliverable keeps only graph.json)
+graph.html
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Credentials and private notes — never commit secrets
+*.token
+*.pem
+*.key
+.env
+.env.*
+账号密码*.txt
+*账号密码*.txt
+*密码*.txt
