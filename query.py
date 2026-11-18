@@ -13,7 +13,14 @@
     python query.py source <node_id>               # 回溯节点对应的原文内容
     python query.py neighbors <node_id>            # 仅查看邻居关系
 
+语言切换（英文图谱）：
+    python query.py --en stats                     # 英文图谱统计
+    python query.py --en search embodied           # 在英文图谱中搜索
+    python query.py --en node <node_id>            # node_id 与中文图谱完全一致
+    也可设置环境变量 KG_LANG=en 永久切换，或使用 --graph <path> 指定任意图谱文件。
+
 node_id 可通过 `search` 命令获得（如 01_赛事目标_蚂蚁灵波具身大模型挑战赛）。
+node_id 在中英文图谱中保持一致，source 命令始终回溯到中文原文。
 """
 
 import json
@@ -167,27 +174,51 @@ def cmd_source(g, nodes, links, nid):
     print("\n".join(section).strip())
 
 
+def resolve_graph_path(argv):
+    """Parse language/graph flags and return (graph_path, remaining_args)."""
+    path = GRAPH_PATH
+    rest = list(argv)
+    # --graph <path> takes highest precedence
+    if "--graph" in rest:
+        i = rest.index("--graph")
+        if i + 1 < len(rest):
+            path = os.path.join(BASE_DIR, rest[i + 1]) if not os.path.isabs(rest[i + 1]) else rest[i + 1]
+            del rest[i:i + 2]
+    elif "--en" in rest:
+        path = os.path.join(BASE_DIR, "graph.en.json")
+        rest.remove("--en")
+    elif os.environ.get("KG_LANG", "").lower() in ("en", "english"):
+        path = os.path.join(BASE_DIR, "graph.en.json")
+    return path, rest
+
+
 def main():
-    if len(sys.argv) < 2:
+    graph_path, args = resolve_graph_path(sys.argv[1:])
+    if not args:
         print(__doc__)
         sys.exit(1)
-    cmd = sys.argv[1]
+    if not os.path.exists(graph_path):
+        print(f"未找到图谱文件：{graph_path}")
+        sys.exit(1)
+    global GRAPH_PATH
+    GRAPH_PATH = graph_path
     g = load_graph()
     nodes = load_nodes(g)
     links = load_links(g)
 
+    cmd = args[0]
     if cmd == "stats":
         cmd_stats(g, nodes, links)
-    elif cmd == "search" and len(sys.argv) >= 3:
-        cmd_search(g, nodes, links, sys.argv[2])
-    elif cmd == "node" and len(sys.argv) >= 3:
-        cmd_node(g, nodes, links, sys.argv[2])
-    elif cmd == "neighbors" and len(sys.argv) >= 3:
-        cmd_neighbors(g, nodes, links, sys.argv[2])
-    elif cmd == "community" and len(sys.argv) >= 3:
-        cmd_community(g, nodes, links, sys.argv[2])
-    elif cmd == "source" and len(sys.argv) >= 3:
-        cmd_source(g, nodes, links, sys.argv[2])
+    elif cmd == "search" and len(args) >= 2:
+        cmd_search(g, nodes, links, args[1])
+    elif cmd == "node" and len(args) >= 2:
+        cmd_node(g, nodes, links, args[1])
+    elif cmd == "neighbors" and len(args) >= 2:
+        cmd_neighbors(g, nodes, links, args[1])
+    elif cmd == "community" and len(args) >= 2:
+        cmd_community(g, nodes, links, args[1])
+    elif cmd == "source" and len(args) >= 2:
+        cmd_source(g, nodes, links, args[1])
     else:
         print(__doc__)
         sys.exit(1)

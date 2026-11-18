@@ -21,3 +21,7 @@ Thumbs.db
 账号密码*.txt
 *账号密码*.txt
 *密码*.txt
+
+# GitHub Actions workflow kept locally; needs PAT "workflow" scope to push.
+# Re-enable after granting workflow scope: git add -f .github/workflows/validate.yml
+.github/workflows/

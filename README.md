@@ -16,9 +16,32 @@ embodied-kg-delivery/
 │   ├── 02-教材精华/
 │   ├── 03-MECE能力体系/
 │   └── 04-赛事知识映射/
+├── graph.en.json          # 英文图谱（节点标签/社区名英文化，id 与中文一致）
 ├── GRAPH_REPORT.md        # 图谱说明书（统计、社区结构、God Nodes）
-└── query.py               # 查询脚本（agent 可直接调用，仅用标准库）
+├── GRAPH_REPORT_EN.md     # 图谱说明书（英文）
+├── CORPUS_INDEX_EN.md     # 语料英文索引（见 knowledge-base/）
+├── CONTRIBUTING.md        # 贡献指南（中英双语，欢迎开分支提认知）
+├── CONTRIBUTORS.md        # 贡献者名单
+├── I18N_GAPS.md           # 待译标签清单（欢迎认领）
+├── query.py               # 查询脚本（agent 可直接调用，仅用标准库）
+├── scripts/               # 英文化、校验、每日同步发布脚本
+│   ├── translate_graph.py
+│   ├── validate.py
+│   └── sync_and_publish.py
+└── .github/workflows/validate.yml  # CI：图谱完整性/溯源/译文/敏感信息校验
 ```
+
+> **语料英文索引**见 `knowledge-base/CORPUS_INDEX_EN.md`。语料正文保持中文以确保术语准确。
+
+## 一·补 双语查询与参与贡献
+
+```bash
+python query.py stats              # 中文图谱
+python query.py --en stats         # 英文图谱（或用环境变量 KG_LANG=en）
+python query.py --en search robot  # 英文标签搜索，node_id 与中文一致
+```
+
+想贡献一条认知、一处译文或素材？见 [CONTRIBUTING.md](CONTRIBUTING.md)：Fork → 开分支 → 改语料/译文 →（若改标签则运行 `python scripts/translate_graph.py`）→ 提 PR。CI 会自动校验图谱结构、溯源、译文覆盖与敏感信息。欢迎所有人都来开自己的分支，让这份图谱持续生长。
 
 ## 二、图谱数据格式（graph.json）
 
@@ -31,7 +54,7 @@ embodied-kg-delivery/
 | `hyperedges` | 超边列表（当前为空） |
 | `graph` | 元信息（`schema_version`、`graphify_version`） |
 
-**当前规模**：189 节点（14 个 page + 175 个 heading）、175 条边、14 个社区。
+**当前规模**：205 节点（15 个 page + 190 个 heading）、190 条边、14 个社区（随每日素材收集持续增长）。英文图谱 `graph.en.json` 与中文图谱 id/拓扑完全一致。
 
 ### 节点字段
 

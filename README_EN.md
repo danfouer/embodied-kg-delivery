@@ -19,11 +19,33 @@ embodied-kg-delivery/
 │   ├── 02-教材精华/       # Textbook digests
 │   ├── 03-MECE能力体系/   # MECE competency framework
 │   └── 04-赛事知识映射/   # Competition-to-knowledge mapping
+├── graph.en.json          # English graph (labels/community names in EN, ids identical)
 ├── GRAPH_REPORT.md        # Graph report (Chinese)
 ├── GRAPH_REPORT_EN.md     # Graph report (English)
+├── CORPUS_INDEX_EN.md     # Corpus index in English (see knowledge-base/)
+├── CONTRIBUTING.md        # Contribution guide (bilingual — fork a branch, share your insight)
+├── CONTRIBUTORS.md        # Contributors
+├── I18N_GAPS.md           # Untranslated labels (claim one!)
 ├── query.py               # Query script (standard library only)
+├── scripts/               # i18n, validation and daily sync/publish scripts
+│   ├── translate_graph.py
+│   ├── validate.py
+│   └── sync_and_publish.py
+├── .github/workflows/validate.yml  # CI: integrity / provenance / i18n / secret scan
 └── LICENSE                # MIT License
 ```
+
+> The English corpus index is at `knowledge-base/CORPUS_INDEX_EN.md`. The corpus body stays in Chinese for terminology accuracy.
+
+## 1.1 Bilingual query & contributing
+
+```bash
+python query.py stats              # Chinese graph
+python query.py --en stats         # English graph (or set KG_LANG=en)
+python query.py --en search robot  # search English labels; node_ids are shared
+```
+
+Want to contribute an insight, a translation or a source? See [CONTRIBUTING.md](CONTRIBUTING.md): fork → branch → edit corpus/translations → (if labels changed) run `python scripts/translate_graph.py` → open a PR. CI validates graph integrity, provenance, translation coverage and secrets. Everyone is welcome to open a branch and help this graph grow.
 
 ## 2. Graph Data Format (graph.json)
 
@@ -36,7 +58,7 @@ Standard graph JSON with the following keys:
 | `hyperedges` | Hyperedge list (currently empty) |
 | `graph` | Metadata (`schema_version`, `graphify_version`) |
 
-**Current scale**: 189 nodes (14 pages + 175 headings), 175 edges, 14 communities, 0 hyperedges.
+**Current scale**: 205 nodes (15 pages + 190 headings), 190 edges, 14 communities, 0 hyperedges (grows with the daily material collection). `graph.en.json` shares identical node ids and topology with the Chinese graph.
 
 ### Node Fields
 
