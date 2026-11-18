@@ -2918,7 +2918,7 @@
       "node_kind": "heading",
       "norm_label": "iii. case summary: the right way to use the graph",
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L116",
+      "source_location": "L124",
       "label_zh": "三、案例小结:图谱的正确打开方式",
       "community_name_zh": "二、案例背景：一名学生想参加 IVFC2026"
     },
@@ -2946,7 +2946,7 @@
       "node_kind": "heading",
       "norm_label": "v. further reading",
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L138",
+      "source_location": "L146",
       "label_zh": "五、相关阅读",
       "community_name_zh": "二、案例背景：一名学生想参加 IVFC2026"
     },
@@ -2960,7 +2960,7 @@
       "node_kind": "heading",
       "norm_label": "iv. a reusable prompt for agents",
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L124",
+      "source_location": "L132",
       "label_zh": "四、给 agent 的一段可复用提示词",
       "community_name_zh": "二、案例背景：一名学生想参加 IVFC2026"
     },
@@ -3016,7 +3016,7 @@
       "node_kind": "heading",
       "norm_label": "step 4 | trace to source: retrieve the original text (key step)",
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L75",
+      "source_location": "L80",
       "label_zh": "步骤 4｜溯源:把原文取回来（关键一步）",
       "community_name_zh": "二、案例背景：一名学生想参加 IVFC2026"
     },
@@ -3030,7 +3030,7 @@
       "node_kind": "heading",
       "norm_label": "step 5 | reverse-map the learning path: ability domain - knowledge module - textbook",
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L93",
+      "source_location": "L98",
       "label_zh": "步骤 5｜从赛事反查学习路径:能力域—知识模块—教材",
       "community_name_zh": "二、案例背景：一名学生想参加 IVFC2026"
     },
@@ -3044,7 +3044,7 @@
       "node_kind": "heading",
       "norm_label": "step 6 | sequence learning by 'practice before theory'",
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L108",
+      "source_location": "L116",
       "label_zh": "步骤 6｜按「先习而后学」排出学习顺序",
       "community_name_zh": "二、案例背景：一名学生想参加 IVFC2026"
     },
@@ -3265,7 +3265,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L108",
+      "source_location": "L116",
       "weight": 1.0
     },
     {
@@ -3309,7 +3309,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L75",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -3320,7 +3320,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L93",
+      "source_location": "L98",
       "weight": 1.0
     },
     {
@@ -3342,7 +3342,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L116",
+      "source_location": "L124",
       "weight": 1.0
     },
     {
@@ -3353,7 +3353,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L124",
+      "source_location": "L132",
       "weight": 1.0
     },
     {
@@ -3364,7 +3364,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "00-总纲/知识图谱使用案例-IVFC2026参赛路径.md",
-      "source_location": "L138",
+      "source_location": "L146",
       "weight": 1.0
     },
     {
