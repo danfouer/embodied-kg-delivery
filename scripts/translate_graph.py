@@ -237,6 +237,21 @@ LABEL_EN = {
     "十、认知架构 / 具身认知课程资源（无新中文教材）": "X. Cognitive Architecture / Embodied Cognition Course Resources (No New Chinese Textbooks)",
     "待跟进清单（滚动）": "Follow-up Checklist (Rolling)",
     "外部生态资源映射（2026-11-18 素材采集）": "External Ecosystem Resource Mapping (2026-11-18 Collection)",
+
+    # ---- usage case study (IVFC2026 participation path) ----
+    "知识图谱使用案例-IVFC2026参赛路径.md": "Knowledge Graph Usage Case - IVFC2026 Participation Path.md",
+    "知识图谱使用案例 · 以 IVFC2026 参赛路径为例": "Knowledge Graph Usage Case: The IVFC2026 Participation Path",
+    "一、核心用法：图谱是索引,原文才是内容": "I. Core Usage: The Graph Is an Index, the Corpus Is the Content",
+    "二、案例背景：一名学生想参加 IVFC2026": "II. Case Background: A Student Wants to Join IVFC2026",
+    "步骤 1｜全局感知：先问图谱有多大、有哪些社区": "Step 1 | Global View: How Large Is the Graph and What Communities Exist",
+    "步骤 2｜定位赛事节点:搜索「IVFC2026」": "Step 2 | Locate Event Nodes: Search 'IVFC2026'",
+    "步骤 3｜锁定关键问题:评分口径": "Step 3 | Pin Down the Key Question: Scoring Rules",
+    "步骤 4｜溯源:把原文取回来（关键一步）": "Step 4 | Trace to Source: Retrieve the Original Text (Key Step)",
+    "步骤 5｜从赛事反查学习路径:能力域—知识模块—教材": "Step 5 | Reverse-Map the Learning Path: Ability Domain - Knowledge Module - Textbook",
+    "步骤 6｜按「先习而后学」排出学习顺序": "Step 6 | Sequence Learning by 'Practice Before Theory'",
+    "三、案例小结:图谱的正确打开方式": "III. Case Summary: The Right Way to Use the Graph",
+    "四、给 agent 的一段可复用提示词": "IV. A Reusable Prompt for Agents",
+    "五、相关阅读": "V. Further Reading",
 }
 
 

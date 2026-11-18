@@ -58,7 +58,7 @@ Standard graph JSON with the following keys:
 | `hyperedges` | Hyperedge list (currently empty) |
 | `graph` | Metadata (`schema_version`, `graphify_version`) |
 
-**Current scale**: 205 nodes (15 pages + 190 headings), 190 edges, 14 communities, 0 hyperedges (grows with the daily material collection). `graph.en.json` shares identical node ids and topology with the Chinese graph.
+**Current scale**: 218 nodes (16 pages + 202 headings), 202 edges (grows with the daily material collection). `graph.en.json` shares identical node ids and topology with the Chinese graph.
 
 ### Node Fields
 
