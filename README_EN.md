@@ -1,4 +1,4 @@
-# Embodied-AI Competition Knowledge Graph · Delivery Package
+# Embodied-AI Competition Knowledge Graph
 
 [简体中文](README.md) | English
 
