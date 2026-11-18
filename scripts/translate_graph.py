@@ -235,6 +235,13 @@ LABEL_EN = {
     "八、数字孪生课程设计案例（国际/国内）": "VIII. Digital Twin Course Design Cases (International / Domestic)",
     "九、人形机器人建模仿真平台生态（2025–2026 更新）": "IX. Humanoid Robot Modeling & Simulation Platform Ecosystem (2025-2026 Update)",
     "十、认知架构 / 具身认知课程资源（无新中文教材）": "X. Cognitive Architecture / Embodied Cognition Course Resources (No New Chinese Textbooks)",
+    "2026-11-19 采集（关键词 6 组）": "2026-11-19 Collection (6 Keyword Groups)",
+    "一、具身智能新教材（3 本昨日未收录）": "I. New Embodied-AI Textbooks (3 Not Previously Collected)",
+    "二、系统建模与仿真新增教材": "II. New Systems Modeling and Simulation Textbooks",
+    "三、平行智能 / ACP 方法（新增权威文献 + 教学辨析素材）": "III. Parallel Intelligence / ACP (New Authoritative Literature + Teaching Clarification Material)",
+    "四、数字孪生教育课程设计案例（5 个，全部新增）": "IV. Digital Twin Education Course Design Cases (5, All New)",
+    "五、人形机器人建模仿真平台生态（版本更新 + 横评）": "V. Humanoid Robot Modeling & Simulation Platform Ecosystem (Version Updates + Comparison)",
+    "六、认知架构 / 具身认知（新增 1 本英文专著 + 3 门课程）": "VI. Cognitive Architecture / Embodied Cognition (1 New English Monograph + 3 Courses)",
     "待跟进清单（滚动）": "Follow-up Checklist (Rolling)",
     "外部生态资源映射（2026-11-18 素材采集）": "External Ecosystem Resource Mapping (2026-11-18 Collection)",
 
