@@ -238,6 +238,21 @@ LABEL_EN = {
     "待跟进清单（滚动）": "Follow-up Checklist (Rolling)",
     "外部生态资源映射（2026-11-18 素材采集）": "External Ecosystem Resource Mapping (2026-11-18 Collection)",
 
+    # ---- methodology assessment of the embodied-AI introductory textbook ----
+    "具身智能专业导论方法论与赛事指导价值评估.md": "Methodology Assessment of the Embodied-AI Introductory Textbook and Its Guiding Value for Competitions.md",
+    "具身智能专业导论方法论与赛事指导价值评估": "Methodology Assessment of the Embodied-AI Introductory Textbook and Its Guiding Value for Competitions",
+    "一、结论": "I. Conclusion",
+    "二、教材概况": "II. Textbook Overview",
+    "三、方法论骨架：七章一条主线": "III. Methodology Framework: Seven Chapters, One Main Line",
+    "四、普适性的三个硬依据": "IV. Three Hard Reasons for Universality",
+    "依据一：教材用真实赛事自证方法论，而非空谈": "Basis 1: The Textbook Proves Its Methodology with a Real Competition, Not Empty Talk",
+    "依据二：PCA 闭环 + ACP 是赛事的通用范式": "Basis 2: The PCA Loop + ACP Is the Universal Paradigm of Competitions",
+    "依据三：配套 6 个递进实验，天然对应参赛全生命周期": "Basis 3: Six Progressive Labs Map Naturally onto the Full Competition Lifecycle",
+    "五、与赛事知识的关系：方法论层 × 赛事层互补": "V. Relation to Competition Knowledge: Methodology Level x Competition Level, Complementary",
+    "六、边界与局限（如实说明）": "VI. Boundaries and Limitations (Stated as They Are)",
+    "七、使用建议": "VII. Usage Suggestions",
+    "来源说明": "Source Notes",
+
     # ---- usage case study (IVFC2026 participation path) ----
     "知识图谱使用案例-IVFC2026参赛路径.md": "Knowledge Graph Usage Case - IVFC2026 Participation Path.md",
     "知识图谱使用案例 · 以 IVFC2026 参赛路径为例": "Knowledge Graph Usage Case: The IVFC2026 Participation Path",
