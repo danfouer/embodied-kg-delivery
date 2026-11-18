@@ -274,6 +274,22 @@ LABEL_EN = {
     "三、案例小结:图谱的正确打开方式": "III. Case Summary: The Right Way to Use the Graph",
     "四、给 agent 的一段可复用提示词": "IV. A Reusable Prompt for Agents",
     "五、相关阅读": "V. Further Reading",
+
+    # ---- capability graph design: ontology structure centered on capability ----
+    "能力图谱设计-以能力为中枢的本体结构.md": "Capability Graph Design - Ontology Structure Centered on Capability.md",
+    "能力图谱设计 · 以能力为中枢的本体结构": "Capability Graph Design - Ontology Structure Centered on Capability",
+    "一、目标对齐": "I. Goal Alignment",
+    "二、能力图谱与知识图谱的本质区别": "II. The Fundamental Difference Between a Capability Graph and a Knowledge Graph",
+    "三、核心实体（围绕能力的本体结构）": "III. Core Entities (Ontology Structure Centered on Capability)",
+    "3.1 能力（Capability）——图谱中枢": "3.1 Capability - The Hub of the Graph",
+    "3.2 其余实体（能力的呈现与支撑）": "3.2 Other Entities (Presentation and Support of Capability)",
+    "四、核心关系（能力的呈现逻辑）": "IV. Core Relationships (The Presentation Logic of Capability)",
+    "4.1 主关系：呈现": "4.1 Core Relationship: Presentation",
+    "4.2 支撑关系（能力的全生命周期）": "4.2 Supporting Relationships (The Full Lifecycle of Capability)",
+    "五、现有语料如何映射到能力图谱": "V. How the Existing Corpus Maps onto the Capability Graph",
+    "六、与\"本体库数仓底座\"评估的关系": "VI. Relationship to the 'Ontology Data Warehouse Base' Assessment",
+    "七、落地路径（能力图谱建设三步）": "VII. Implementation Path (Three Steps to Build the Capability Graph)",
+    "八、设计要点与边界": "VIII. Design Points and Boundaries",
 }
 
 

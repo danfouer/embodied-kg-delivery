@@ -54,7 +54,7 @@ python query.py --en search robot  # 英文标签搜索，node_id 与中文一�
 | `hyperedges` | 超边列表（当前为空） |
 | `graph` | 元信息（`schema_version`、`graphify_version`） |
 
-**当前规模**：244 节点（18 个 page + 226 个 heading）、226 条边（随每日素材收集持续增长）。英文图谱 `graph.en.json` 与中文图谱 id/拓扑完全一致。
+**当前规模**：259 节点（19 个 page + 240 个 heading）、240 条边（随每日素材收集持续增长）。英文图谱 `graph.en.json` 与中文图谱 id/拓扑完全一致。
 
 ### 节点字段
 
