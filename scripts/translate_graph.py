@@ -345,6 +345,14 @@ LABEL_EN = {
     "六、与\"本体库数仓底座\"评估的关系": "VI. Relationship to the 'Ontology Data Warehouse Base' Assessment",
     "七、落地路径（能力图谱建设三步）": "VII. Implementation Path (Three Steps to Build the Capability Graph)",
     "八、设计要点与边界": "VIII. Design Points and Boundaries",
+    "2026-11-27 采集（关键词 6 组 + 补充核实 1 组）": "2026-11-27 Collection (6 Keyword Groups + 1 Supplementary Verification)",
+    "一、具身智能新教材（无全新专业教材，1 条 AI 素养通识备案）": "I. New Embodied Intelligence Textbooks (No Fully New Professional Textbooks, 1 AI-Literacy General-Education Filing)",
+    "二、系统建模与仿真（新增 3 门课程，无新教材）": "II. System Modeling and Simulation (3 New Courses, No New Textbooks)",
+    "三、平行智能 / ACP 方法（新增 1 篇六概念辨析权威长文 + ACP 应用域素材，仍无新教材）": "III. Parallel Intelligence / ACP (1 New Authoritative Six-Concept Clarification Article + ACP Application-Domain Material, Still No New Textbooks)",
+    "四、数字孪生教育课程设计案例（新增 3 个微专业，含首个建筑方向拓展）": "IV. Digital Twin Education Course-Design Cases (3 New Micro-Majors, Including the First Architecture-Track Expansion)",
+    "五、人形机器人建模仿真平台（新增 2 条教学路径与实操细则）": "V. Humanoid Robot Modeling and Simulation Platforms (2 New Teaching Paths and Hands-On Details)",
+    "六、认知架构 / 具身认知（新增 1 本中文原创权威著作 + 概念界定备案）": "VI. Cognitive Architecture / Embodied Cognition (1 New Original Chinese Authoritative Work + Concept-Definition Filing)",
+    "外部生态资源映射补充（2026-11-27 素材采集）": "Supplementary External Ecosystem Resource Mapping (2026-11-27 Collection)",
 }
 
 
